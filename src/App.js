@@ -1,11 +1,12 @@
 import "./App.css";
-import { Header, Footer } from "../src/components/index";
+import { Header, Footer, Loader } from "../src/components/index";
 import { BlogPage, HomePage, ProjectPage } from "../src/pages/index";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
+      <Loader/>
       <Header />
       <div className="App">
         <Routes>
